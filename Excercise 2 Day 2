@@ -1,0 +1,18 @@
+first_name = 'Vincent'
+last_name = 'Nathanael'
+num_one = 5
+num_two = 4
+var_total = num_one + num_two
+var_diff = num_one - num_two
+var_product = num_one * num_two
+var_division = num_one / num_two
+var_exponent = num_one ** num_two
+var_floor = num_one // num_two
+print(len(first_name), len(last_name))
+print(first_name == last_name)
+
+
+circle_rad = float(input('Please enter a circle radius: '))
+circle_area = 3.14 * (circle_rad * circle_rad)
+circum_of_circle = 2 * 3.14 * circle_rad
+print(circle_area, circum_of_circle)
