@@ -1,0 +1,11 @@
+first_name = 'Vincent'
+last_name = 'Nathanael'
+full_name = 'Vincent Matthew Nathanael'
+Country = 'Indonesia'
+City ='Jakarta'
+is_married = False
+is_true = True
+is_light_on = False
+
+
+print(first_name, last_name, full_name, Country, City, is_married, is_true, is_light_on)
