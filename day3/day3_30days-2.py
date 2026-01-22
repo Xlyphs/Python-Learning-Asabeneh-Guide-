@@ -1,0 +1,5 @@
+side_a = float(input("enter side a: "))
+side_b = float(input("enter side b: "))
+side_c = float(input("enter side c: "))
+Perimeter = (side_a + side_b + side_c)
+print(Perimeter)
