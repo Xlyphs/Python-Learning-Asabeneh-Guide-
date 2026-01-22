@@ -1,3 +1,4 @@
+import math
 # Line equation: y = 2x - 2
 # This is in the form: y = mx + b
 
@@ -16,7 +17,7 @@ print(f"Y-intercept = (0, {b})")
 # Divide by 2: x = 1
 print(f"X-intercept = (1, 0)")
 
-import math
+
 
 # Points
 point1 = (2, 2)   # (x1, y1)
@@ -33,5 +34,6 @@ dx = 6 - 2   # = 4
 dy = 10 - 2  # = 8
 distance = math.sqrt(dx*dx + dy*dy)
 print(f"Distance = √(4² + 8²) = √(16 + 64) = √80 ≈ {distance:.2f}")
+
 
 print(m == slope)
